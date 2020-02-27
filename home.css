@@ -149,3 +149,10 @@ h2 {
   display: block;
   margin: auto;
 }
+.table {
+  display: table;
+  margin: 0 auto;
+}
+li {
+  text-align: left;
+}
