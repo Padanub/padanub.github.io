@@ -1,57 +1,22 @@
-<!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <link rel="stylesheet" href="home.css">
-        <title>Le Bank Internationale</title>
-    </head>
-    <body>
-        <img id="logo" src="https://i.imgur.com/o6lp8Uz.png" width="100px" height="100px">
-        <!--The loan form and text-->
-        <div id="centralBar">
-            <div id="textBox">
-                <img src="https://i.imgur.com/gqQsFyV.png" width="200px" height="200px">
-                <h2 id="headline">Personal Loans</h2>
-                <p id="headlineText">5.5% APR Representative on loans between £100,000 to £1,000,000 over 1 to 20 years.</p>
-                <p id="headlineDesc">Other loan amounts and terms are available, at different rates. Our loans start at £100,000.
-                <br><br>Thinking about a big bet or buying an asset? Need some extra cash to pay off some debts? A Nub Bank personal loan can help make it happen. 
-                <br><br>Lending and rate are subject to our assessment of your circumstances. Available to UK residents aged 18 and over.</p>
-                <p>By applying for a loan you give Nub Bank UK plc consent to contact you with regards to your application</p>
-            </div>
-            <form id="loanapply" name="loanapply">
-                <div class="tooltip">
-                    <label for="username">Username *</label><span class="tooltiptext">Without the /u/</span>
-                </div><br>
-            <input type="text" id="username" name="username" required="required"><br>
-            <label for="salary">Annual Salary *</label><br>
-                <input type="number" id="salary" name="salary" required="required" min="0" max="1000000"><br>
-            <label for="amount">How much would you like to borrow? *</label>
-            <output class="amount-output" for="amount"></output><br>
-                <input type="range" id="amount" name="amount" min="100000" max="1000000" step="10000" value="100000" required="required">
-            <br>
-            <div class="tooltip">
-                <label for="length">How long do you want the loan for (MHOC Years) *</label><span class="tooltiptext">One MHOC Year is equal to 37 IRL Days, payments are made yearly</span>
-            </div><br>
-                <input type="number" id="length" name="length" required="required" min="1" max="30"><br>
-            <label for="reason">Why do you want this loan?</label><br>
-                <textarea id="reason" name="reason"></textarea>
-            <input type="button" id="applybutton" class="applybutton" value="Apply Now" onclick="runCheck();replaceForm();"></button>
-            </form>
-        </div>
-        <!--Decision object-->
-        <div id="postSubmit" class="postSubmit">
-            <p id="decision"></p>
-        </div>
-        <div id="facts" class="table">
-            <h3>Your Loan Details</h3>
-            <ul id="loanFacts">
-            </ul>
-        </div>
-        <!--Rep Example footer-->
-            <div class="apr">
-                <h2>Representative Example</h2>
-                <p>5.5% APR Representative based on a loan of £100,000 repayable over 10 years at an interest rate of 5.5% pa (fixed). 
-                Yearly repayment of £13,266. Total amount payable £132,660</p><br>
-            </div>
-    </body>
-    <script src="home.js"></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Le Bank Internationale</title>
+  </head>
+  <body>
+    <h1>BONK!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
