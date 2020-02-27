@@ -1,0 +1,17 @@
+.bg-nub {
+  background-color: #0f3759;
+  color: #fff;
+}
+.btn-nub, .btn-nub:hover {
+  background-color: #f23054;
+  color: #fff;
+}
+.jumbotron {
+  color: #000;
+}
+.pageclip-form__success {
+  background-color: #eaedf0;
+}
+.pageclip-form__success__message {
+  color: #0f3759;
+}
