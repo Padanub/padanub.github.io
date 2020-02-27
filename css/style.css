@@ -9,3 +9,9 @@
 .jumbotron {
   color: #000;
 }
+.pageclip-form__success {
+  background-color: #eaedf0;
+}
+.pageclip-form__success__message {
+  color: #0f3759;
+}
