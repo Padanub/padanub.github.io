@@ -1,11 +1,3 @@
-const formatConfig = {
-    style: "currency",
-    currency: "GBP", // CNY for Chinese Yen, EUR for Euro
-    minimumFractionDigits: 2,
-    currencyDisplay: "symbol"
-};
-const britishNumberFormatter = new Intl.NumberFormat("en-GB", formatConfig);
-
 //slider value output JS
 const amount = document.querySelector('#amount')
 const output = document.querySelector('.amount-output')
