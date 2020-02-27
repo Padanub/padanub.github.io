@@ -7,16 +7,86 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <title>Le Bank Internationale</title>
+    <style>
+      .bg-nub {
+        background-color: #0f3759;
+        color: #fff;
+      }
+      .btn-nub {
+        background-color: #f23054;
+        color: #fff;
+      }
+      .jumbotron {
+        color: #000;
+      }
+    </style>
   </head>
-  <body>
-    <h1>BONK!</h1>
+  <body class="bg-nub">
+    <nav class="navbar justify-content-center navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="https://i.imgur.com/o6lp8Uz.png" height="75px" alt="Nub Bank">
+      </a>
+    </nav>
+    <div class="container justify-content-center pt-5 pb-2">
+      <div class="row">
+        <div class="text-center col-md-4">
+          <h3>Personal Loans</h3>
+          <h6>5.5% APR Representative on loans between £100,000 to £1,000,000 over 1 to 20 years.</h6>
+          <p>Other loan amounts and terms are available, at different rates. Our loans start at £100,000.</p>
+          <p>Thinking about a big bet or buying an asset? Need some extra cash to pay off some debts? A Nub Bank personal loan can help make it happen.</p>
+          <p>Lending and rate are subject to our assessment of your circumstances. Available to UK residents aged 18 and over.</p>
+          <p>By applying for a loan you give Nub Bank UK plc consent to contact you with regards to your application</p>
+        </div>
+        <div class="col-md-1">
+          &nbsp;
+        </div>
+        <div class="col-md-7 col-md-offset-4">
+          <form action="https://send.pageclip.co/3rjpEJdyHUghopWK01ciEqxML3h9hSFN" class="pageclip-form" method="post">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input required class="form-control form-control-sm" type="text" placeholder="padanub" id="username" name="username">
+              <small id="usernameHelp" class="form-text">Without the /u/!</small>
+            </div>
+            <div class="form-group">
+              <label for="salary">Salary</label>
+              <input required class="form-control form-control-sm" type="number" id="salary" name="salary" min="0" max="1000000">
+            </div>
+            <div class="form-group">
+              <label for="amount">How much would you like to borrow?</label>
+              <input required class="custom-range" type="range" id="amount" name="amount" min="100000" max="1000000" step="10000" value="100000">
+              <small id="amountHelp" class="form-text">Value: £100,000.</small>
+            </div>
+            <div class="form-group">
+              <label for="length">How long would you like the loan for?</label>
+              <input required class="form-control form-control-sm" type="number" id="length" name="length" min="1" max="30">
+              <small id="lengtheHelp" class="form-text">MHOC Years: 1 year = 37 days.</small>
+            </div>
+            <div class="form-group">
+              <label for="reason">Why do you want this loan?</label>
+              <textarea class="form-control form-control-sm" id="reason" name="reason" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-nub">
+              <span>Apply Now</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h5>Your Loan Details</h5>
+        <div class="details">
+        </div>
+        <h3>Representative Example</h3>
+        <p>5.5% APR Representative based on a loan of £100,000 repayable over 10 years at an interest rate of 5.5% pa (fixed).<br/>Yearly repayment of £13,266.<br/>Total amount payable £132,660.</p>
+      </div>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
